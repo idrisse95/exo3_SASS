@@ -4,7 +4,7 @@ body {
 
 #fond {
   background-color: grey;
-  height: 80vh;
+  height: 40vh;
 }
 
 ul {
@@ -40,9 +40,9 @@ header nav ul li {
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
   text-align: center;
-  height: 70vh;
+  height: 40vh;
+  padding-top: 70px;
 }
 
 #titre ul li:first-child {
@@ -200,7 +200,61 @@ header nav ul li {
   width: 150px;
   margin-left: 20px;
   border-radius: 50%;
-  border: solid 10px #d9d9d9;
+  border: solid 7px #d9d9d9;
+}
+
+#aren {
+  background-color: grey;
+}
+
+#aren {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4% 0;
+}
+
+#aren ul li:first-child {
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#aren ul li:nth-child(2) {
+  color: #e0e0e0;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#aren ul li:nth-child(3) {
+  background-color: #dd3d5d;
+  width: 150px;
+  padding: 15px;
+  font-size: 15px;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+footer div {
+  color: #bcbcbc;
+  padding: 5% 0;
+}
+
+footer div ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer div ul li {
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+footer div ul:first-child svg {
+  width: 50px;
+  color: #bcbcbc;
 }
 
 /*# sourceMappingURL=style.css.map */
