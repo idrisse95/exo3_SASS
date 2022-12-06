@@ -3,8 +3,7 @@ body {
 }
 
 #fond {
-  background-color: grey;
-  height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.509), rgba(0, 0, 0, 0.503)), url(../images/banner.jpg);
 }
 
 ul {
@@ -41,7 +40,7 @@ header nav ul li {
   display: flex;
   justify-content: center;
   text-align: center;
-  height: 40vh;
+  height: 50vh;
   padding-top: 70px;
 }
 
@@ -170,7 +169,7 @@ header nav ul li {
 
 #mau .cont {
   margin-top: 80px;
-  padding-left: 12%;
+  padding-left: 10%;
 }
 
 #mau .cont .flexM {
@@ -208,7 +207,8 @@ header nav ul li {
 }
 
 #aren {
-  background-color: grey;
+  background: linear-gradient(rgba(0, 0, 0, 0.509), rgba(0, 0, 0, 0.503)), url(../images/banner.jpg);
+  background-position-y: 50%;
 }
 
 #aren {
@@ -249,6 +249,7 @@ footer .foot {
 footer .foot .contF {
   display: flex;
   justify-content: center;
+  padding-left: 5%;
 }
 
 footer .foot .contF div {
