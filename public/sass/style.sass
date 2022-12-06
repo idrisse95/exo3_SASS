@@ -2,7 +2,7 @@ body
     margin: 0
 #fond
     background-color: grey
-    height: 80vh
+    height: 70vh
 
 ul
     list-style: none
@@ -187,19 +187,24 @@ header nav ul li
         text-transform: uppercase
  
  
-footer div
+footer .foot
     color: #bcbcbc
     padding: 5% 0
-footer div ul
+footer .foot .contF
     display: flex
     justify-content: center
-footer div ul li
-    margin-right: 5%
+footer .foot .contF div
+    margin-right: 3%
     margin-bottom: 3%
-footer div ul:first-child svg
+footer .foot div svg
     width: 50px
     color: #bcbcbc
 
+footer .contD
+    display: flex
+    justify-content: center
+footer .contD div
+    margin-left:5%
 
 
 
@@ -207,8 +212,12 @@ footer div ul:first-child svg
 
 
 @media only screen and (max-width:376px)
+    #top
+        background-repeat: no-repeat
+    #aren
+        background-repeat: no-repeat
     #fond
-        height: 40vh
+        height: 50vh
     header
         padding-top: 5%
         nav
@@ -225,6 +234,8 @@ footer div ul:first-child svg
         display: block
         padding-right: 1%
 
+    #fusc .img
+            margin-left: 0
     #fusc .img
             display: block
     #fusc .img img
@@ -244,6 +255,7 @@ footer div ul:first-child svg
                     
     #mau .cont .flexZ
                     display: block
+    
     
     footer
         font-size: 10px
