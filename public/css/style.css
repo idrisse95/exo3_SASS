@@ -1,3 +1,40 @@
+body {
+  margin: 0;
+}
+
+#fond {
+  background: url(../images/banner.jpg);
+  height: 80vh;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  text-transform: uppercase;
+  color: #e8e8e8;
+}
+
+header nav span {
+  font-weight: bold;
+  color: white;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 2%;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 10px;
+}
 
 
 /*# sourceMappingURL=style.css.map */
