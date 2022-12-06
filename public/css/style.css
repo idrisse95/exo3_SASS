@@ -91,4 +91,63 @@ header nav ul li {
   color: #b5b3b3;
 }
 
+#fusc {
+  text-transform: uppercase;
+  padding: 5% 0;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+
+#fusc div:first-child ul li:first-child {
+  font-weight: bold;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+#fusc div:first-child ul li:last-child {
+  color: #b5b3b3;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+#fusc .img {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+#fusc .img .tF {
+  background-color: white;
+  padding: 4%;
+  font-weight: bold;
+}
+
+#fusc .img div {
+  background-color: white;
+  margin-left: 2%;
+}
+
+#fusc .but {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  padding-left: 2%;
+}
+
+#fusc .but div {
+  width: 150px;
+  color: white;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#fusc .but div:first-child {
+  background-color: #dd3d5d;
+}
+
+#fusc .but div:last-child {
+  background-color: #2d2d2d;
+}
+
 /*# sourceMappingURL=style.css.map */
