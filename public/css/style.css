@@ -3,8 +3,9 @@ body {
 }
 
 #fond {
-  background-color: grey;
-  height: 40vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  height: 80vh;
 }
 
 ul {
@@ -170,7 +171,7 @@ header nav ul li {
 
 #mau .cont {
   margin-top: 80px;
-  padding-right: 100px;
+  padding-left: 12%;
 }
 
 #mau .cont .flexM {
@@ -208,8 +209,9 @@ header nav ul li {
 }
 
 #aren {
-  background-color: grey;
-}
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/banner.jpg);
+  background-repeat: no-repeat;
+background-position-Y: 50%;}
 
 #aren {
   color: white;
@@ -262,6 +264,9 @@ footer div ul:first-child svg {
 }
 
 @media only screen and (max-width: 376px) {
+  #fond {
+    height: 40vh;
+  }
   header {
     padding-top: 5%;
   }
@@ -288,7 +293,7 @@ footer div ul:first-child svg {
     width: 100%;
   }
   #mau .cont {
-    padding-right: 0;
+    padding-left: 0;
     padding-bottom: 5%;
   }
   #mau .cont .flexM {
@@ -302,6 +307,9 @@ footer div ul:first-child svg {
   }
   #mau .cont .flexZ {
     display: block;
+  }
+  footer {
+    font-size: 10px;
   }
 }
 
